@@ -1,0 +1,150 @@
+@font-face {
+	font-family: ProximaNova;
+	src: url(../font/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+	font-family: ProximaNova-Extrabld;
+	src: url(../font/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+ 	font-family: ProximaNova-RegularIt;
+ 	src: url(../font/ProximaNova-RegularIt.ttf);
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background-image: url(../img/bg.png);
+	position: relative;
+}
+
+header::before {
+	background-image: url(../img/bgbefore.png);
+	position: absolute;
+	content: "";
+	width: 946px;
+	height: 610px;
+	right: 346px;
+	bottom: 0px;
+}
+
+nav a {
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	color: #3c3d42;
+	text-decoration: none;
+	padding-left: 29px;
+}
+
+.center {
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 1170px;
+}
+
+.nav {
+	margin-top: 41px;
+	margin-bottom: 37px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+.navleft {
+	padding-left: 1px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.navright {
+	display: flex;
+	color: #3c3d42;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+}
+
+.navright span {
+	margin-left: 8px; 
+}
+
+.navright div {
+	margin-left: 35px;
+}
+
+.hero {
+	padding-top: 136px;
+	padding-bottom: 258px;
+}
+
+.he1 {
+	width: 440px;
+	height: 70px;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 36px;
+	text-align: left;
+	line-height: 44px;
+	letter-spacing: -0.6px;
+}
+
+.he1 span {
+	font-weight: 700;
+	letter-spacing: -0.3px;
+}
+
+.he2 {
+	width: 472px;
+	height: 62px;
+	color: #9dc7d1;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 49px;
+}
+
+.he3 {
+    width: 234px;
+    height: 54px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    margin-top: 59px;
+}
+
+.he3 a {
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 21px;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 15px 52px;
+	line-height: 53px;
+}
