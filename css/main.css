@@ -23,6 +23,11 @@ body {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+	color: #9fa9a9;
+}
+
 header {
 	background-image: url(../img/bg.png);
 	position: relative;
@@ -49,6 +54,27 @@ nav a {
 	color: #3c3d42;
 	text-decoration: none;
 	padding-left: 29px;
+}
+
+h2 {
+	color: #636c6c;
+	font-family: Raleway;
+	font-size: 36px;
+	text-align: left;
+	line-height: 44px;
+	font-weight: 700;
+	letter-spacing: -0.3px;		
+}
+
+h3 {
+	color: #636c6c;
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
 }
 
 .center {
@@ -147,4 +173,238 @@ nav a {
 	text-decoration: none;
 	padding: 15px 52px;
 	line-height: 53px;
+}
+
+.features {
+	margin-top: 97px;
+}
+
+.feat {
+	display: flex;
+	align-items: center;
+	width: 315px;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	padding: 33.1px 0;
+}
+
+.feat span {
+	color: #9fa9a9;
+	font-size: 48px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+
+.featupspan {
+    width: 761px;
+    color: #afb8b8;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    letter-spacing: 0.7px;
+    text-align: center;
+	margin: auto;
+	margin-top: -4px;
+}
+
+.featleft {
+	height: 600px;
+    margin-left: 42px;
+    padding-top: 70px;
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    background-position: bottom 24px right 6px;
+}
+
+.fas {
+	width: 44px;
+	height: 36px;
+}
+
+.far {
+	width: 44px;
+	height: 36px;
+}
+
+.featlt {
+	margin-left: 42px;
+}
+
+.featlt button {
+	background-color: transparent;
+	border: none;
+	text-decoration: none;
+	outline: 0;
+	color: #9fa9a9;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 400;
+	cursor: pointer;
+    padding: 11px 0;
+}
+
+.featbottom {
+	display: flex;
+}
+
+.featright p {
+	color: #afb8b8;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+
+.featright span {
+	width: 198px;
+	height: 165px;
+	color: #5dca88;
+	font-size: 220px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	margin-left: 204px;
+}
+
+.featright {
+	margin-top: 120px;
+    margin-left: 140px;
+}
+
+.frh3 {
+	margin-top: 90px;
+}
+
+.disabled {
+	display: none;
+}
+
+#learn {
+	background-color: #f2f9fe;
+}
+
+.learn {
+	padding-top: 210px;
+	padding-bottom: 192px;
+}
+
+.learn::before {
+	background-image: url(../img/learnbgbefore.png);
+	position: absolute;
+	content: "";
+	width: 380px;
+	height: 696px;
+	left: 1009px;
+    top: 1883px;
+}
+
+.learn h2 {
+	color: #5dca88;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+.learn p {
+	color: #8c9494;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 35px;
+}
+
+.learn p span {
+	color: #8c9494;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+}
+
+.lbtn {
+	width: 234px;
+    height: 54px;
+    border: 3px solid #636c6c;;
+    border-radius: 40px;
+    margin-top: 53px;
+}
+
+.lbtn a {
+	color: #636c6c;
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 49px;
+    line-height: 53px;
+}
+
+.screenshots {
+	padding-top: 63px;
+}
+
+.screenshots p {
+	color: #afb8b8;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: center;
+}
+
+.shp {
+	margin-top: -12px;
+}
+
+.screenshots p span {
+	color: #8c9494;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: center;
+}
+
+.screenslider {
+	display: flex;
+	margin-top: 81px;
+	margin-left: 26px;
+}
+
+.screenslider div {
+	margin-right: 84px;
+}
+
+.ssp {
+	margin-top: 37px;
 }
