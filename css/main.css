@@ -408,3 +408,29 @@ h3 {
 .ssp {
 	margin-top: 37px;
 }
+
+.slider {
+	display: flex;
+	align-items: center;
+	margin-left: 28px;
+}
+
+.slider div {
+	padding-right: 82px;
+}
+
+.slidp {
+	position: absolute;
+	top: 3212px;
+    left: 194px;
+}
+
+.slidn {
+	position: absolute;
+	top: 3212px;
+    right: 194px;
+}
+
+#geature {
+	background-color: #F2F9FE;
+}
